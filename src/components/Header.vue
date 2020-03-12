@@ -1,6 +1,7 @@
 <template>
   <div class="header">
       <div class='img_header'>
+        LOGO
       </div>
       <div class="link_header">
           <ul>
@@ -57,11 +58,15 @@ a {
     margin-top:-80px;
 }
 .img_header{
-  background: red;
   height: 80px;
   width: 200px;
   margin-top:-100px;
   margin-left: 40px;
+  border: solid 1px #cccccc;
+  font-size: 50px;
+  padding: 10px;
+  padding-top: 10px;
+  text-align: center;
 }
 .search_header{
   float: right;
