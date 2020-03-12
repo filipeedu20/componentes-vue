@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <Content msg="" />
-    <Header msg="Componente view "/>
-    <Menu msg=""/>
-    <Sidebar msg="Componente view "/>
-    <Article msg="Componente view "/>
-    <HelloWorld msg="Primeiro app usando VUE"/>
+    <Content />
+    <Header/>
+    <Menu />
+    <Sidebar />
+    <Article />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'; //componente padrão
+
 import Header from './components/Header.vue'; //cabeçalho 
 import Content from './components/Content.vue'; //conteudo da pagina 
 import Menu from './components/Menu.vue'; //conteudo da pagina 
@@ -20,7 +19,6 @@ import Article from './components/Article.vue'; //conteudo do artigo
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     Header, 
     Content,
     Sidebar,
