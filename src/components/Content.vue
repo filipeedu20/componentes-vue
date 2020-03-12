@@ -1,14 +1,17 @@
 <template>
-  <div class="hello">
-  
-
-    
+  <div class="">
+      <div class="">
+         <div class='controle'>
+           <div class='img_artigo'></div>
+           <div class='artigo'></div>
+         </div>
+      </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Olá componente',
   props: {
     msg: String
   }
@@ -31,4 +34,9 @@ li {
 a {
   color: #42b983;
 }
+/* .artigo{
+  height: 100px;
+} */
+
+
 </style>

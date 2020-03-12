@@ -1,17 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Content msg="" />
+    <Header msg="Componente view "/>
+    <Menu msg=""/>
+    <Sidebar msg="Componente view "/>
+    <Article msg="Componente view "/>
+    <HelloWorld msg="Primeiro app usando VUE"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue'; //componente padrão
+import Header from './components/Header.vue'; //cabeçalho 
+import Content from './components/Content.vue'; //conteudo da pagina 
+import Menu from './components/Menu.vue'; //conteudo da pagina 
+import Sidebar from './components/Sidebar.vue'; //conteudo do artigo
+import Article from './components/Article.vue'; //conteudo do artigo
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Header, 
+    Content,
+    Sidebar,
+    Article,
+    Menu
   }
 }
 </script>
@@ -24,5 +38,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  border: solid 1px #cccccc;  
+  width: 1500px;
+  margin:0 auto;
 }
 </style>
